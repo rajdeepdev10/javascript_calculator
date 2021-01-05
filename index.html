@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Javascript Calculator</title>
+</head>
+<body>
+    <h1>Javascript Calculator</h1>
+
+    <div id="container">
+
+        <div id="display">0</div>
+
+        <div id="buttons">
+
+            <button id="equals" onclick="main('=')">=</button>
+
+            <button id="zero" onclick="main(0)">0</button>
+            <button id="one" onclick="main(1)">1</button>
+            <button id="two" onclick="main(2)">2</button>
+            <button id="three" onclick="main(3)">3</button>
+            <button id="four" onclick="main(4)">4</button>
+            <button id="five" onclick="main(5)">5</button>
+            <button id="six" onclick="main(6)">6</button>
+            <button id="seven" onclick="main(7)">7</button>
+            <button id="eight" onclick="main(8)">8</button>
+            <button id="nine" onclick="main(9)">9</button>
+
+            <button id="add" onclick="main('+')" class="operator">+</button>
+            <button id="subtract" onclick="main('-')" class="operator">-</button>
+            <button id="multiply" onclick="main('*')" class="operator">*</button>
+            <button id="divide" onclick="main('/')" class="operator">/</button>
+
+            <button id="decimal" onclick="updateDisplay('.')">.</button>
+
+            <button id="clear" onclick="clearDisplay()">AC</button>
+
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>

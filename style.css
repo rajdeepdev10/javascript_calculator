@@ -1,0 +1,41 @@
+#display{
+    font-size: 50px;
+}
+
+body{
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+
+#container 
+{
+    background-color: white;
+    display: inline-block;
+    border: 5px solid black;
+    max-width: 250px;
+}
+  
+#buttons
+{
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(3, 80px);
+    grid-gap: 5px;
+}
+  
+#display
+{
+    text-align: end;
+    max-width: 250px;
+}
+
+button
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 3rem;
+    font-weight: bold;
+    background: white;
+}
