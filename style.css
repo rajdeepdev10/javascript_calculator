@@ -1,5 +1,7 @@
 #display{
     font-size: 50px;
+    text-align: end;
+    max-width: 250px;
 }
 
 body{
@@ -8,27 +10,24 @@ body{
 }
 
 
-#container 
+#container
 {
     background-color: white;
     display: inline-block;
     border: 5px solid black;
     max-width: 250px;
 }
-  
+
 #buttons
 {
     display: grid;
     grid-template-columns: repeat(3, 80px);
     grid-template-rows: repeat(3, 80px);
     grid-gap: 5px;
+    background-color: lightsalmon;
 }
-  
-#display
-{
-    text-align: end;
-    max-width: 250px;
-}
+
+
 
 button
 {
@@ -39,3 +38,44 @@ button
     font-weight: bold;
     background: white;
 }
+
+#clear
+{
+    background-color: pink;
+}
+
+#clear:hover
+{
+    background-color: red;
+}
+
+.num
+{
+    background-color: yellow;
+}
+
+.num:hover
+{
+    background-color: gold;
+}
+
+#equals
+{
+    background-color: lime;
+}
+
+#equals:hover
+{
+    background-color: limegreen;
+}
+
+.operator
+{
+    background-color: cornflowerblue;
+}
+
+.operator:hover
+{
+    background-color: blue;
+}
+
